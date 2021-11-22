@@ -8,27 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		BB035E16274BDB4900C626F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E15274BDB4900C626F2 /* AppDelegate.m */; };
-		BB035E19274BDB4900C626F2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E18274BDB4900C626F2 /* SceneDelegate.m */; };
-		BB035E1C274BDB4900C626F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E1B274BDB4900C626F2 /* ViewController.m */; };
-		BB035E1F274BDB4900C626F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035E1D274BDB4900C626F2 /* Main.storyboard */; };
+		BB035E1F274BDB4900C626F2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035E1D274BDB4900C626F2 /* Main_iPad.storyboard */; };
 		BB035E21274BDB4A00C626F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB035E20274BDB4A00C626F2 /* Assets.xcassets */; };
 		BB035E24274BDB4A00C626F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035E22274BDB4A00C626F2 /* LaunchScreen.storyboard */; };
 		BB035E27274BDB4A00C626F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E26274BDB4A00C626F2 /* main.m */; };
+		BB035E37274BDBB100C626F2 /* TVGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E36274BDBB100C626F2 /* TVGuideVC.m */; };
+		BB035E3A274BDBB700C626F2 /* ServicesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E39274BDBB700C626F2 /* ServicesVC.m */; };
+		BB035E3D274BDBC000C626F2 /* InteractiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E3C274BDBC000C626F2 /* InteractiveVC.m */; };
+		BB035E40274BDBC700C626F2 /* BoxOfficeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E3F274BDBC700C626F2 /* BoxOfficeVC.m */; };
+		BB035E48274BE07100C626F2 /* SDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E47274BE07100C626F2 /* SDTabbarController.m */; };
+		BB035E4D274BE0AE00C626F2 /* MenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E4C274BE0AE00C626F2 /* MenuTableView.m */; };
+		BB035E51274BE0BB00C626F2 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E50274BE0BB00C626F2 /* MenuTableViewCell.m */; };
+		BB035E53274BE0C200C626F2 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB035E52274BE0C200C626F2 /* MenuTableViewCell.xib */; };
+		BB035E55274BF31A00C626F2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035E54274BF31A00C626F2 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB035E11274BDB4900C626F2 /* SkyDigibox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyDigibox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB035E14274BDB4900C626F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB035E15274BDB4900C626F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB035E17274BDB4900C626F2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BB035E18274BDB4900C626F2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BB035E1A274BDB4900C626F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB035E1B274BDB4900C626F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BB035E1E274BDB4900C626F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB035E1E274BDB4900C626F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		BB035E20274BDB4A00C626F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB035E23274BDB4A00C626F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB035E25274BDB4A00C626F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB035E26274BDB4A00C626F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB035E35274BDBB100C626F2 /* TVGuideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVGuideVC.h; sourceTree = "<group>"; };
+		BB035E36274BDBB100C626F2 /* TVGuideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVGuideVC.m; sourceTree = "<group>"; };
+		BB035E38274BDBB700C626F2 /* ServicesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesVC.h; sourceTree = "<group>"; };
+		BB035E39274BDBB700C626F2 /* ServicesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesVC.m; sourceTree = "<group>"; };
+		BB035E3B274BDBC000C626F2 /* InteractiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveVC.h; sourceTree = "<group>"; };
+		BB035E3C274BDBC000C626F2 /* InteractiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveVC.m; sourceTree = "<group>"; };
+		BB035E3E274BDBC700C626F2 /* BoxOfficeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxOfficeVC.h; sourceTree = "<group>"; };
+		BB035E3F274BDBC700C626F2 /* BoxOfficeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxOfficeVC.m; sourceTree = "<group>"; };
+		BB035E46274BE07100C626F2 /* SDTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDTabbarController.h; sourceTree = "<group>"; };
+		BB035E47274BE07100C626F2 /* SDTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDTabbarController.m; sourceTree = "<group>"; };
+		BB035E4B274BE0AE00C626F2 /* MenuTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableView.h; sourceTree = "<group>"; };
+		BB035E4C274BE0AE00C626F2 /* MenuTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableView.m; sourceTree = "<group>"; };
+		BB035E4F274BE0BB00C626F2 /* MenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		BB035E50274BE0BB00C626F2 /* MenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		BB035E52274BE0C200C626F2 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		BB035E54274BF31A00C626F2 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +80,127 @@
 		BB035E13274BDB4900C626F2 /* SkyDigibox */ = {
 			isa = PBXGroup;
 			children = (
-				BB035E14274BDB4900C626F2 /* AppDelegate.h */,
-				BB035E15274BDB4900C626F2 /* AppDelegate.m */,
-				BB035E17274BDB4900C626F2 /* SceneDelegate.h */,
-				BB035E18274BDB4900C626F2 /* SceneDelegate.m */,
-				BB035E1A274BDB4900C626F2 /* ViewController.h */,
-				BB035E1B274BDB4900C626F2 /* ViewController.m */,
-				BB035E1D274BDB4900C626F2 /* Main.storyboard */,
+				BB035E2F274BDB5F00C626F2 /* Classes */,
+				BB035E2D274BDB5300C626F2 /* Storyboard */,
 				BB035E20274BDB4A00C626F2 /* Assets.xcassets */,
-				BB035E22274BDB4A00C626F2 /* LaunchScreen.storyboard */,
 				BB035E25274BDB4A00C626F2 /* Info.plist */,
 				BB035E26274BDB4A00C626F2 /* main.m */,
 			);
 			path = SkyDigibox;
+			sourceTree = "<group>";
+		};
+		BB035E2D274BDB5300C626F2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E22274BDB4A00C626F2 /* LaunchScreen.storyboard */,
+				BB035E1D274BDB4900C626F2 /* Main_iPad.storyboard */,
+				BB035E54274BF31A00C626F2 /* Main_iPhone.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BB035E2E274BDB5900C626F2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E14274BDB4900C626F2 /* AppDelegate.h */,
+				BB035E15274BDB4900C626F2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BB035E2F274BDB5F00C626F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E2E274BDB5900C626F2 /* AppDelegate */,
+				BB035E30274BDB6200C626F2 /* Controllers */,
+				BB035E49274BE09800C626F2 /* Subclasses */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB035E30274BDB6200C626F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E33274BDB9500C626F2 /* BoxOffice */,
+				BB035E32274BDB8B00C626F2 /* Interactive */,
+				BB035E34274BDB9B00C626F2 /* Services */,
+				BB035E45274BE06800C626F2 /* Tabbar */,
+				BB035E31274BDB8500C626F2 /* TVGuide */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB035E31274BDB8500C626F2 /* TVGuide */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E35274BDBB100C626F2 /* TVGuideVC.h */,
+				BB035E36274BDBB100C626F2 /* TVGuideVC.m */,
+			);
+			path = TVGuide;
+			sourceTree = "<group>";
+		};
+		BB035E32274BDB8B00C626F2 /* Interactive */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E3B274BDBC000C626F2 /* InteractiveVC.h */,
+				BB035E3C274BDBC000C626F2 /* InteractiveVC.m */,
+			);
+			path = Interactive;
+			sourceTree = "<group>";
+		};
+		BB035E33274BDB9500C626F2 /* BoxOffice */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E3E274BDBC700C626F2 /* BoxOfficeVC.h */,
+				BB035E3F274BDBC700C626F2 /* BoxOfficeVC.m */,
+			);
+			path = BoxOffice;
+			sourceTree = "<group>";
+		};
+		BB035E34274BDB9B00C626F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E38274BDBB700C626F2 /* ServicesVC.h */,
+				BB035E39274BDBB700C626F2 /* ServicesVC.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB035E45274BE06800C626F2 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E46274BE07100C626F2 /* SDTabbarController.h */,
+				BB035E47274BE07100C626F2 /* SDTabbarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		BB035E49274BE09800C626F2 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E4A274BE09D00C626F2 /* UITableView */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		BB035E4A274BE09D00C626F2 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E4E274BE0B000C626F2 /* Cell */,
+				BB035E4B274BE0AE00C626F2 /* MenuTableView.h */,
+				BB035E4C274BE0AE00C626F2 /* MenuTableView.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		BB035E4E274BE0B000C626F2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BB035E4F274BE0BB00C626F2 /* MenuTableViewCell.h */,
+				BB035E50274BE0BB00C626F2 /* MenuTableViewCell.m */,
+				BB035E52274BE0C200C626F2 /* MenuTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +262,9 @@
 			files = (
 				BB035E24274BDB4A00C626F2 /* LaunchScreen.storyboard in Resources */,
 				BB035E21274BDB4A00C626F2 /* Assets.xcassets in Resources */,
-				BB035E1F274BDB4900C626F2 /* Main.storyboard in Resources */,
+				BB035E55274BF31A00C626F2 /* Main_iPhone.storyboard in Resources */,
+				BB035E53274BE0C200C626F2 /* MenuTableViewCell.xib in Resources */,
+				BB035E1F274BDB4900C626F2 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,22 +275,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB035E1C274BDB4900C626F2 /* ViewController.m in Sources */,
+				BB035E40274BDBC700C626F2 /* BoxOfficeVC.m in Sources */,
+				BB035E3A274BDBB700C626F2 /* ServicesVC.m in Sources */,
+				BB035E4D274BE0AE00C626F2 /* MenuTableView.m in Sources */,
 				BB035E16274BDB4900C626F2 /* AppDelegate.m in Sources */,
+				BB035E48274BE07100C626F2 /* SDTabbarController.m in Sources */,
+				BB035E37274BDBB100C626F2 /* TVGuideVC.m in Sources */,
 				BB035E27274BDB4A00C626F2 /* main.m in Sources */,
-				BB035E19274BDB4900C626F2 /* SceneDelegate.m in Sources */,
+				BB035E51274BE0BB00C626F2 /* MenuTableViewCell.m in Sources */,
+				BB035E3D274BDBC000C626F2 /* InteractiveVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB035E1D274BDB4900C626F2 /* Main.storyboard */ = {
+		BB035E1D274BDB4900C626F2 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BB035E1E274BDB4900C626F2 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		BB035E22274BDB4A00C626F2 /* LaunchScreen.storyboard */ = {
@@ -299,7 +433,8 @@
 				INFOPLIST_FILE = SkyDigibox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +461,8 @@
 				INFOPLIST_FILE = SkyDigibox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
