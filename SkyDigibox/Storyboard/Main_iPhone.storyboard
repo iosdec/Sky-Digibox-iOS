@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -149,7 +148,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9nm-DQ-hTg" firstAttribute="trailing" secondItem="sga-8G-ZgY" secondAttribute="trailing" id="0Z0-3i-PfI"/>
                             <constraint firstItem="XjL-WK-qiN" firstAttribute="leading" secondItem="sga-8G-ZgY" secondAttribute="leading" constant="225" id="6HM-Lh-ly1"/>
@@ -259,7 +258,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="o6W-X1-Ch3" firstAttribute="leading" secondItem="mLX-RD-Fer" secondAttribute="leading" constant="225" id="C8B-6u-Htr"/>
                             <constraint firstItem="qQ8-6g-bsE" firstAttribute="top" secondItem="NIG-tw-0SK" secondAttribute="bottom" id="Eqg-MG-8oA"/>
@@ -366,7 +365,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="cpd-ce-ByO" secondAttribute="bottom" id="3hI-wi-U6V"/>
                             <constraint firstItem="XuP-U6-aqT" firstAttribute="leading" secondItem="vk6-Ws-NKK" secondAttribute="leadingMargin" constant="165" id="3hv-kb-5in"/>
@@ -446,7 +445,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="efS-v4-QUW" firstAttribute="top" secondItem="sOf-bO-XSv" secondAttribute="bottom" constant="100" id="14J-Pd-459"/>
                             <constraint firstItem="8Hq-5l-xh8" firstAttribute="top" secondItem="efS-v4-QUW" secondAttribute="bottom" id="DnQ-KM-tl4"/>
@@ -477,6 +476,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fEp-GP-OFs" customClass="SDTabbarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LH9-68-a4i">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -497,8 +497,5 @@
         <image name="Interactive" width="1600" height="1200"/>
         <image name="Services" width="1600" height="1200"/>
         <image name="TVGuide" width="1600" height="1200"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
