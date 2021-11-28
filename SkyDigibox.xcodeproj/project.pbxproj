@@ -21,6 +21,22 @@
 		BB035E51274BE0BB00C626F2 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB035E50274BE0BB00C626F2 /* MenuTableViewCell.m */; };
 		BB035E53274BE0C200C626F2 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB035E52274BE0C200C626F2 /* MenuTableViewCell.xib */; };
 		BB035E55274BF31A00C626F2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB035E54274BF31A00C626F2 /* Main_iPhone.storyboard */; };
+		BB4183A6274CF00200835868 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4183A5274CF00200835868 /* AudioToolbox.framework */; };
+		BB4183A8274CF00600835868 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4183A7274CF00600835868 /* CoreAudio.framework */; };
+		BB4183AA274CF01E00835868 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4183A9274CF01E00835868 /* AVFoundation.framework */; };
+		BB4183F7274CF34300835868 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183DA274CF34300835868 /* XCDYouTubeVideoOperation.m */; };
+		BB4183F8274CF34300835868 /* XCDYouTubeDashManifestXML.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183DB274CF34300835868 /* XCDYouTubeDashManifestXML.m */; };
+		BB4183F9274CF34300835868 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183DC274CF34300835868 /* XCDYouTubeVideo.m */; };
+		BB4183FA274CF34300835868 /* XCDURLGETOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183DD274CF34300835868 /* XCDURLGETOperation.m */; };
+		BB4183FB274CF34300835868 /* XCDURLHEADOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183E3274CF34300835868 /* XCDURLHEADOperation.m */; };
+		BB4183FC274CF34300835868 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB4183E4274CF34300835868 /* Configuration.plist */; };
+		BB4183FD274CF34300835868 /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183E5274CF34300835868 /* XCDYouTubeVideoWebpage.m */; };
+		BB4183FE274CF34300835868 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB4183E6274CF34300835868 /* AppledocSettings.plist */; };
+		BB4183FF274CF34300835868 /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183E8274CF34300835868 /* XCDYouTubeLogger.m */; };
+		BB418400274CF34300835868 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183E9274CF34300835868 /* XCDYouTubePlayerScript.m */; };
+		BB418401274CF34300835868 /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183F0274CF34300835868 /* XCDYouTubeVideoPlayerViewController.m */; };
+		BB418402274CF34300835868 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183F1274CF34300835868 /* XCDYouTubeClient.m */; };
+		BB418403274CF34300835868 /* XCDYouTubeVideoQueryOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4183F3274CF34300835868 /* XCDYouTubeVideoQueryOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +64,40 @@
 		BB035E50274BE0BB00C626F2 /* MenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		BB035E52274BE0C200C626F2 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		BB035E54274BF31A00C626F2 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BB4183A3274CEF8300835868 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BB4183A5274CF00200835868 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB4183A7274CF00600835868 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		BB4183A9274CF01E00835868 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB4183DA274CF34300835868 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		BB4183DB274CF34300835868 /* XCDYouTubeDashManifestXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeDashManifestXML.m; sourceTree = "<group>"; };
+		BB4183DC274CF34300835868 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		BB4183DD274CF34300835868 /* XCDURLGETOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDURLGETOperation.m; sourceTree = "<group>"; };
+		BB4183DE274CF34300835868 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeClient.h; sourceTree = "<group>"; };
+		BB4183DF274CF34300835868 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoPlayerViewController.h; sourceTree = "<group>"; };
+		BB4183E0274CF34300835868 /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		BB4183E1274CF34300835868 /* XCDYouTubeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeError.h; sourceTree = "<group>"; };
+		BB4183E2274CF34300835868 /* XCDYouTubeVideoQueryOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoQueryOperation.h; sourceTree = "<group>"; };
+		BB4183E3274CF34300835868 /* XCDURLHEADOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDURLHEADOperation.m; sourceTree = "<group>"; };
+		BB4183E4274CF34300835868 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		BB4183E5274CF34300835868 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		BB4183E6274CF34300835868 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
+		BB4183E7274CF34300835868 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		BB4183E8274CF34300835868 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		BB4183E9274CF34300835868 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		BB4183EA274CF34300835868 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		BB4183EB274CF34300835868 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		BB4183EC274CF34300835868 /* XCDURLGETOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDURLGETOperation.h; sourceTree = "<group>"; };
+		BB4183ED274CF34300835868 /* XCDYouTubeDashManifestXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeDashManifestXML.h; sourceTree = "<group>"; };
+		BB4183EE274CF34300835868 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		BB4183EF274CF34300835868 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeKit.h; sourceTree = "<group>"; };
+		BB4183F0274CF34300835868 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoPlayerViewController.m; sourceTree = "<group>"; };
+		BB4183F1274CF34300835868 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeClient.m; sourceTree = "<group>"; };
+		BB4183F2274CF34300835868 /* XCDURLHEADOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDURLHEADOperation.h; sourceTree = "<group>"; };
+		BB4183F3274CF34300835868 /* XCDYouTubeVideoQueryOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDYouTubeVideoQueryOperation.m; sourceTree = "<group>"; };
+		BB4183F4274CF34300835868 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		BB4183F5274CF34300835868 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		BB4183F6274CF34300835868 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		BBC5AAA9274E4A440054DA33 /* SkyDigibox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkyDigibox.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4183A8274CF00600835868 /* CoreAudio.framework in Frameworks */,
+				BB4183A6274CF00200835868 /* AudioToolbox.framework in Frameworks */,
+				BB4183AA274CF01E00835868 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +119,7 @@
 			children = (
 				BB035E13274BDB4900C626F2 /* SkyDigibox */,
 				BB035E12274BDB4900C626F2 /* Products */,
+				BB4183A4274CF00200835868 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +134,7 @@
 		BB035E13274BDB4900C626F2 /* SkyDigibox */ = {
 			isa = PBXGroup;
 			children = (
+				BBC5AAA9274E4A440054DA33 /* SkyDigibox.entitlements */,
 				BB035E2F274BDB5F00C626F2 /* Classes */,
 				BB035E2D274BDB5300C626F2 /* Storyboard */,
 				BB035E20274BDB4A00C626F2 /* Assets.xcassets */,
@@ -113,7 +168,9 @@
 			children = (
 				BB035E2E274BDB5900C626F2 /* AppDelegate */,
 				BB035E30274BDB6200C626F2 /* Controllers */,
+				BB4183A2274CEF7900835868 /* Global */,
 				BB035E49274BE09800C626F2 /* Subclasses */,
+				BB4183AB274CF0CE00835868 /* ThirdParty */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -203,6 +260,68 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		BB4183A2274CEF7900835868 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BB4183A3274CEF8300835868 /* PrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BB4183A4274CF00200835868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB4183A9274CF01E00835868 /* AVFoundation.framework */,
+				BB4183A7274CF00600835868 /* CoreAudio.framework */,
+				BB4183A5274CF00200835868 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB4183AB274CF0CE00835868 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				BB4183D9274CF34300835868 /* XCDYouTubeKit */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		BB4183D9274CF34300835868 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB4183E6274CF34300835868 /* AppledocSettings.plist */,
+				BB4183E4274CF34300835868 /* Configuration.plist */,
+				BB4183EC274CF34300835868 /* XCDURLGETOperation.h */,
+				BB4183DD274CF34300835868 /* XCDURLGETOperation.m */,
+				BB4183F2274CF34300835868 /* XCDURLHEADOperation.h */,
+				BB4183E3274CF34300835868 /* XCDURLHEADOperation.m */,
+				BB4183DE274CF34300835868 /* XCDYouTubeClient.h */,
+				BB4183F1274CF34300835868 /* XCDYouTubeClient.m */,
+				BB4183ED274CF34300835868 /* XCDYouTubeDashManifestXML.h */,
+				BB4183DB274CF34300835868 /* XCDYouTubeDashManifestXML.m */,
+				BB4183E1274CF34300835868 /* XCDYouTubeError.h */,
+				BB4183EF274CF34300835868 /* XCDYouTubeKit.h */,
+				BB4183F5274CF34300835868 /* XCDYouTubeLogger.h */,
+				BB4183E8274CF34300835868 /* XCDYouTubeLogger.m */,
+				BB4183E0274CF34300835868 /* XCDYouTubeLogger+Private.h */,
+				BB4183EA274CF34300835868 /* XCDYouTubeOperation.h */,
+				BB4183F4274CF34300835868 /* XCDYouTubePlayerScript.h */,
+				BB4183E9274CF34300835868 /* XCDYouTubePlayerScript.m */,
+				BB4183EB274CF34300835868 /* XCDYouTubeVideo.h */,
+				BB4183DC274CF34300835868 /* XCDYouTubeVideo.m */,
+				BB4183E7274CF34300835868 /* XCDYouTubeVideo+Private.h */,
+				BB4183EE274CF34300835868 /* XCDYouTubeVideoOperation.h */,
+				BB4183DA274CF34300835868 /* XCDYouTubeVideoOperation.m */,
+				BB4183DF274CF34300835868 /* XCDYouTubeVideoPlayerViewController.h */,
+				BB4183F0274CF34300835868 /* XCDYouTubeVideoPlayerViewController.m */,
+				BB4183E2274CF34300835868 /* XCDYouTubeVideoQueryOperation.h */,
+				BB4183F3274CF34300835868 /* XCDYouTubeVideoQueryOperation.m */,
+				BB4183F6274CF34300835868 /* XCDYouTubeVideoWebpage.h */,
+				BB4183E5274CF34300835868 /* XCDYouTubeVideoWebpage.m */,
+			);
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,7 +381,9 @@
 			files = (
 				BB035E24274BDB4A00C626F2 /* LaunchScreen.storyboard in Resources */,
 				BB035E21274BDB4A00C626F2 /* Assets.xcassets in Resources */,
+				BB4183FE274CF34300835868 /* AppledocSettings.plist in Resources */,
 				BB035E55274BF31A00C626F2 /* Main_iPhone.storyboard in Resources */,
+				BB4183FC274CF34300835868 /* Configuration.plist in Resources */,
 				BB035E53274BE0C200C626F2 /* MenuTableViewCell.xib in Resources */,
 				BB035E1F274BDB4900C626F2 /* Main_iPad.storyboard in Resources */,
 			);
@@ -280,10 +401,21 @@
 				BB035E4D274BE0AE00C626F2 /* MenuTableView.m in Sources */,
 				BB035E16274BDB4900C626F2 /* AppDelegate.m in Sources */,
 				BB035E48274BE07100C626F2 /* SDTabbarController.m in Sources */,
+				BB418401274CF34300835868 /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				BB4183F7274CF34300835868 /* XCDYouTubeVideoOperation.m in Sources */,
 				BB035E37274BDBB100C626F2 /* TVGuideVC.m in Sources */,
+				BB418403274CF34300835868 /* XCDYouTubeVideoQueryOperation.m in Sources */,
+				BB4183FB274CF34300835868 /* XCDURLHEADOperation.m in Sources */,
+				BB4183F8274CF34300835868 /* XCDYouTubeDashManifestXML.m in Sources */,
+				BB4183FF274CF34300835868 /* XCDYouTubeLogger.m in Sources */,
+				BB418402274CF34300835868 /* XCDYouTubeClient.m in Sources */,
+				BB418400274CF34300835868 /* XCDYouTubePlayerScript.m in Sources */,
 				BB035E27274BDB4A00C626F2 /* main.m in Sources */,
+				BB4183FA274CF34300835868 /* XCDURLGETOperation.m in Sources */,
+				BB4183FD274CF34300835868 /* XCDYouTubeVideoWebpage.m in Sources */,
 				BB035E51274BE0BB00C626F2 /* MenuTableViewCell.m in Sources */,
 				BB035E3D274BDBC000C626F2 /* InteractiveVC.m in Sources */,
+				BB4183F9274CF34300835868 /* XCDYouTubeVideo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +558,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkyDigibox/SkyDigibox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8734RMR67V;
+				GCC_PREFIX_HEADER = SkyDigibox/Classes/Global/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkyDigibox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +578,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.declanland.SkyDigibox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,9 +589,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkyDigibox/SkyDigibox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8734RMR67V;
+				GCC_PREFIX_HEADER = SkyDigibox/Classes/Global/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SkyDigibox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -472,6 +609,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.declanland.SkyDigibox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
